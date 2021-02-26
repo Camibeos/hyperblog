@@ -1,6 +1,6 @@
 body
 {
-    color: darkslategrey;
+    color: red;
     text-align: center;
     font-family: arial;
     font-size: 30px;
@@ -11,12 +11,19 @@ body
 #cabecera
 {
     background: #3333cc; ;
+    box-shadow: 0px 5px 30px rgba(0, 0,0 , 0, 0.75);
     color: white;
+    font-weight: bold;
     margin: 0%;
     padding: 0.5em;
 }
 
 #cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0 8em;
+}
 
 #container 
 {
